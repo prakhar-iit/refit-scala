@@ -1,6 +1,7 @@
 # refit-scala
 
-#Git Settings
+#Git Settings <br/>
+
 Set User name and email for git config
 
 git config 
