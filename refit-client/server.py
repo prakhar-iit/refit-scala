@@ -47,7 +47,7 @@ print("Server Started....")
 while True:
 	conn, addr = s.accept()
 	print ("Client connection accepted", addr)
-	with open("/Users/prakharrastogi/Desktop/refit-scala/src/main/scala/raw_text_1.txt") as fileobject:
+	with open("/Users/prakharrastogi/Desktop/refit-scala/src/main/scala/raw_text.txt") as fileobject:
 		for line in fileobject:
 			preprocessedCorpus = "".join([char for char in line if char not in string.punctuation])
 			words = word_tokenize(preprocessedCorpus)
