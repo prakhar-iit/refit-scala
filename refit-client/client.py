@@ -1,13 +1,4 @@
-# import socket
-
-# s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# s.connect((socket.gethostbyname("localhost"), 1235))
-
-# while True:
-#     msg = s.recv(1024)
-#     print (repr(msg))
-#     print(msg.decode("utf-8"))
-#     print("....")
+#A code to test the socket connection from client to server
 import socket
 
 HOST = 'localhost'
